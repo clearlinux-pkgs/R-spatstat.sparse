@@ -1,3 +1,4 @@
 # This file contains recursive sources that require this package
 R-polyCub
-R-spatstat.geom
+R-spatstat.core
+R-spatstat.linnet
