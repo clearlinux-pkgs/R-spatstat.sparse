@@ -1,4 +1,16 @@
 
+        CHANGES IN spatstat.sparse VERSION 2.1-1
+
+OVERVIEW
+
+    o Bug fix.
+    
+BUG FIXES
+
+    o matrixsqrt, matrixinvsqrt, matrixpower
+    If the result was a complex-valued matrix, the values were completely incorrect.
+    Fixed.
+
         CHANGES IN spatstat.sparse VERSION 2.1-0
 
 OVERVIEW
