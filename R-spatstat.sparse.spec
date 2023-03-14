@@ -4,7 +4,7 @@
 #
 Name     : R-spatstat.sparse
 Version  : 3.0.1
-Release  : 12
+Release  : 13
 URL      : https://cran.r-project.org/src/contrib/spatstat.sparse_3.0-1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spatstat.sparse_3.0-1.tar.gz
 Summary  : Sparse Three-Dimensional Arrays and Linear Algebra Utilities
@@ -18,9 +18,6 @@ BuildRequires : R-abind
 BuildRequires : R-spatstat.utils
 BuildRequires : R-tensor
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 and supports standard operations on them.
@@ -45,10 +42,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1678752719
+export SOURCE_DATE_EPOCH=1678831423
 
 %install
-export SOURCE_DATE_EPOCH=1678752719
+export SOURCE_DATE_EPOCH=1678831423
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
