@@ -7,7 +7,7 @@
 #
 Name     : R-spatstat.sparse
 Version  : 3.0.3
-Release  : 19
+Release  : 20
 URL      : https://cran.r-project.org/src/contrib/spatstat.sparse_3.0-3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spatstat.sparse_3.0-3.tar.gz
 Summary  : Sparse Three-Dimensional Arrays and Linear Algebra Utilities
